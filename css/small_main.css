@@ -1,26 +1,17 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
 h1 {
-  font-size: 60px;
-  font-weight: lighter;
-  margin: 0;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 40px;
-  margin: 0;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 40px;
-  color: #7d97ad;
-  vertical-align:middle
+  font-size: 25px;
 }
 
 h4 {
-  margin: 0;
+  font-size: 12px;
 }
 
 .header__inner {
@@ -57,17 +48,14 @@ hr {
 ul {
     margin: 0;
     padding: 0;
-    display: inline;
 
 }
 
 li {
-  display: inline-block;
   list-style-type: none;
-  padding-right: 10px;
-  padding-left: 10px;
   vertical-align: middle;
-  width: 31%;
+  padding-bottom: 5%;
+  width: 100%;
 }
 
 .project_image {
