@@ -1,0 +1,38 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__title {
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+}
+
+.main_pic {
+  width: 100%;
+}
