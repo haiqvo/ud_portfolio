@@ -1,7 +1,13 @@
+/* Author Hai Vo
+ * the css to portfolio site
+ */
+
+/* Font */
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* the different header */
 h1 {
   font-weight: lighter;
   margin: 0;
@@ -18,4 +24,54 @@ h3 {
 
 h4 {
   margin: 0;
+}
+
+/* For logo, name and description */
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header__title {
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+
+/* For the line break */
+hr {
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+    margin-bottom: 25px;
+}
+
+/* large picture */
+.main_pic {
+  width: 100%;
+}
+
+/* the Github project */
+#menu {
+  text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.project_image {
+  width: 100%;
+}
+
+/* Footer */
+footer {
+  padding: 1em;
+  width: 100%;
 }

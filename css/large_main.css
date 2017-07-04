@@ -1,3 +1,5 @@
+/* if the page is a large size */
+
 h1 {
   font-size: 60px;
 }
@@ -11,43 +13,6 @@ h3 {
   font-size: 2vw;
 }
 
-.header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.header__title {
-  display: inline-block;
-  float: right;
-  text-align: right;
-}
-
-hr {
-    border: none;
-    height: 5px;
-    /* Set the hr color */
-    color: #7d97ad; /* old IE */
-    background-color: #7d97ad; /* Modern Browsers */
-    margin-bottom: 25px;
-}
-
-
-.main_pic {
-  width: 100%;
-}
-
-#menu {
-  text-align: center;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-
-}
-
 li {
   display: inline-block;
   list-style-type: none;
@@ -55,8 +20,4 @@ li {
   padding-left: 1%;
   vertical-align: middle;
   width: 30%;
-}
-
-.project_image {
-  width: 100%;
 }
