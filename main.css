@@ -8,6 +8,17 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+h3 {
+  font-size: 40px;
+  color: #7d97ad;
+  vertical-align:middle
+}
+
 h4 {
   margin: 0;
 }
@@ -31,8 +42,34 @@ hr {
     /* Set the hr color */
     color: #7d97ad; /* old IE */
     background-color: #7d97ad; /* Modern Browsers */
+    margin-bottom: 25px;
 }
 
+
 .main_pic {
+  width: 100%;
+}
+
+#menu {
+  text-align: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline;
+
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  vertical-align: middle;
+  width: 31%;
+}
+
+.project_image {
   width: 100%;
 }
