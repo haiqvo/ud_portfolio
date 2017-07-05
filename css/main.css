@@ -4,7 +4,7 @@
 
 /* Font */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* the different header */
@@ -15,7 +15,8 @@ h1 {
 
 h2 {
   color: #7d97ad;
-  vertical-align:middle
+  vertical-align: middle;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -55,6 +56,11 @@ hr {
   width: 100%;
 }
 
+p {
+  font-size: 10px;
+  font-size: 2vw
+}
+
 /* the Github project */
 #menu {
   text-align: center;
@@ -72,6 +78,5 @@ ul {
 
 /* Footer */
 footer {
-  padding: 1em;
   width: 100%;
 }
